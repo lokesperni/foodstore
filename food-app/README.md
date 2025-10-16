@@ -1,12 +1,36 @@
-# React + Vite
+# 🍕 React Food Store App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Food Store Web App** built using **React Functional Components** with features like **Add to Cart**, **Remove from Cart**, and **Toast Notifications**. All styling is managed using a single **App.css** file for clean UI control.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Display list of food items
+- 🛒 Add items to cart
+- ❌ Remove items from cart
+- 🔔 Toast notifications using **React Toastify**
+- 🎨 Styled using **App.css**
+- ⚛️ Component-based architecture with **Functional Components**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+| Tech | Purpose |
+|------|---------|
+| **React (Functional Components)** | UI & State Management |
+| **useState / useEffect Hooks** | Cart & Logic handling |
+| **React Toastify** | Toast Notifications |
+| **CSS (App.css)** | Styling |
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+src/
+├── App.jsx          # Main component with logic
+├── App.css          # Styling file
+├── components/      # (Optional) Separate components like FoodItem or CartItem 
+└── index.js
