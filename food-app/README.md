@@ -34,7 +34,7 @@ src/
 ├── App.css          # Styling file
 
 # Clone the repository
-git clone https://github.com/your-username/foodstore-app.git
+https://github.com/lokesperni/foodstore/tree/main/food-app
 
 # Navigate into the project folder
 cd foodstore-app
