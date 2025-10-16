@@ -32,3 +32,15 @@ A simple and interactive **Food Store Web App** built using **React Functional C
 src/
 ├── App.jsx          # Main component with logic
 ├── App.css          # Styling file
+
+# Clone the repository
+git clone https://github.com/your-username/foodstore-app.git
+
+# Navigate into the project folder
+cd foodstore-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev 
