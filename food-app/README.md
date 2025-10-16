@@ -2,7 +2,7 @@
 
 A simple and interactive **Food Store Web App** built using **React Functional Components** with features like **Add to Cart**, **Remove from Cart**, and **Toast Notifications**. All styling is managed using a single **App.css** file for clean UI control.
 
----
+
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ A simple and interactive **Food Store Web App** built using **React Functional C
 - 🎨 Styled using **App.css**
 - ⚛️ Component-based architecture with **Functional Components**
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -32,5 +32,15 @@ A simple and interactive **Food Store Web App** built using **React Functional C
 src/
 ├── App.jsx          # Main component with logic
 ├── App.css          # Styling file
-├── components/      # (Optional) Separate components like FoodItem or CartItem 
-└── index.js
+
+# Clone the repository
+git clone https://github.com/your-username/foodstore-app.git
+
+# Navigate into the project folder
+cd foodstore-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev 
